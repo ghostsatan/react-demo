@@ -8,6 +8,7 @@ import Page from './Page.js'
 import NameForm from './NameForm.js'
 import Favor from './Favor'
 import Calculator from './Calculator'
+import Mouse from './Mouse'
 
 
 
@@ -69,6 +70,7 @@ class App extends React.Component {
         <AppFooter SubmitChooseValue={this.ChooseValue.bind(this)}/>
         <NameForm />
         <Calculator />
+        <Mouse />
       </div>
     )
   }
